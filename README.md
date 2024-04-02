@@ -2,21 +2,49 @@
  este programa foi feito para controlar o estoque de uma concessionaria e serve para  melhorar a eficiência e a organização das operações da concessionária, garantindo que os funcionários tenham acesso fácil às informações necessárias sobre os carros em estoque. o que pode levar a um melhor atendimento ao cliente e a uma experiência de compra mais eficiente.
 
   
-carro--
-A classe Carro representa um modelo de carro e armazena informações sobre o modelo, como o nome do modelo, a quantidade em estoque e o preço.
+Classe Main e Método main:
+A classe Main é o ponto de entrada do programa.
+O método main é onde a execução começa.
+Ele inicializa um objeto Scanner para capturar a entrada do usuário e uma instância da classe Concessionaria para controlar o estoque.
 
-Concessionaria--
-A classe Concessionaria mantém uma lista de carros em estoque e fornece métodos para adicionar, remover, consultar, atualizar e exibir o estoque de carros.
-Método main:
+Loop Infinito do Menu:
+O programa entra em um loop infinito para exibir o menu interativo e permitir que o usuário interaja com o sistema.
+Menu Interativo:
 
-O método main é o ponto de entrada do programa. Ele cria uma instância da classe Concessionaria e entra em um loop infinito que exibe um menu interativo ao usuário.
-O menu oferece opções para o usuário interagir com o sistema de controle de estoque da concessionária, como adicionar um novo carro, remover um carro, consultar informações de um carro, atualizar informações de um carro, exibir o estoque ou sair do programa.
+O menu exibe opções numeradas para o usuário:
+Adicionar um carro ao estoque.
+Remover um carro do estoque.
+Consultar informações de um carro específico.
+Atualizar informações de um carro existente.
+Exibir o estoque atual.
+Sair do programa.
 
-O programa usa um objeto Scanner para capturar a entrada do usuário e executa diferentes blocos de código com base na escolha do usuário no menu.
-Dependendo da opção selecionada pelo usuário, os métodos correspondentes da classe Concessionaria são chamados para realizar a operação desejada.
-Exibição de Informações:
+Captura da Escolha do Usuário:
+O programa captura a escolha do usuário usando o objeto Scanner.
+Dependendo da opção escolhida, diferentes blocos de código são executados.
 
-O programa exibe mensagens na tela para informar o usuário sobre o status das operações realizadas, como adicionar, remover, consultar ou atualizar um carro, bem como exibir o estoque atual.
+Operações do Menu:
+Cada opção do menu corresponde a uma operação específica na classe Concessionaria.
+Por exemplo, ao escolher "Adicionar carro", o programa solicita informações sobre o novo carro e chama o método adicionarCarro na Concessionaria.
+
+Tratamento de Opção Inválida:
+Se o usuário inserir uma opção inválida, o programa exibirá uma mensagem de erro e retornará ao menu.
+
+Classe Carro:
+Representa um modelo de carro e armazena informações sobre o modelo, como nome, quantidade em estoque e preço.
+
+Classe Concessionaria:
+Mantém uma lista de carros em estoque e fornece métodos para adicionar, remover, consultar, atualizar e exibir o estoque de carros.
+
+Exibição de Mensagens ao Usuário:
+O programa exibe mensagens informativas para o usuário após cada operação, informando o resultado da operação (sucesso ou falha) e fornecendo detalhes, como o modelo do carro adicionado ou removido.
+
+
+
+
+
+
+
 
  
 
